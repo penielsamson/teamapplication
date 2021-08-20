@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+body {
+  transition-duration: 0.2s;
+}
+.container {
+  width: 100vw;
+  height: 100hv;
+  display: grid;
+  grid-template-columns: 2fr 5fr;
+}
+.container > div {
+  height: 95vh;
+}
+.leftPane {
+  background: #e7332b;
+  padding: 100px 40px;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+.logo1 a img {
+  background-color: #ffffff;
+  padding: 15px;
+  max-height: 100px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.2),
+    -5px -5px 8px rgba(255, 134, 128, 0.6),
+    inset 3px 3px 4px rgba(255, 134, 128, 0.8),
+    inset -3px -3px 4px rgba(0, 0, 0, 0.2);
+}
+.logo2 a img {
+  background-color: #ffffff;
+  padding: 15px;
+  height: 88px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.2),
+    -5px -5px 8px rgba(255, 134, 128, 0.6),
+    inset 3px 3px 4px rgba(255, 134, 128, 0.8),
+    inset -3px -3px 4px rgba(0, 0, 0, 0.2);
+}
+.logo3 a img {
+  background-color: #ffffff;
+  padding: 15px;
+  max-height: 113px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.2),
+    -5px -5px 8px rgba(255, 134, 128, 0.6),
+    inset 3px 3px 4px rgba(255, 134, 128, 0.8),
+    inset -3px -3px 4px rgba(0, 0, 0, 0.2);
+}
+.rightPane {
+  margin-left: 50px;
+  padding: 20px 100px 10px 50px;
+  display: grid;
+  grid-template-rows: 1fr 9fr;
+  place-items: top;
+}
+.rightPane h1 {
+  text-align: center;
+  font-size: 24pt;
+  color: #009be2;
+}
+.rightPane form {
+  font-size: 14pt;
+}
+.rightPane form p {
+  font-style: italic;
+  margin: 10px;
+}
+.rightPane form > div {
+  padding: 17px 0 0 0;
+}
+.rightPane form .formInput {
+  outline: none;
+  border: none;
+}
+.rightPane form #formInput {
+  text-align: center;
+  outline: none;
+  border: none;
+}
+.rightPane form #formInput input {
+  padding: 15px;
+  font-size: 20pt;
+  background-color: #009be2;
+  text-align: center;
+  outline: none;
+  border-radius: 10px;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+footer {
+  text-align: center;
+  color: #fff;
+  background-color: #333333;
+}
+footer span {
+  color: #009be2;
+}
